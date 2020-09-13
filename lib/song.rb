@@ -14,7 +14,7 @@ class Song
    song.save
    song
   end 
-  def self.new_by_name(song)
+  def self.new_by_name(so)
    binding.pry
   end
 end
