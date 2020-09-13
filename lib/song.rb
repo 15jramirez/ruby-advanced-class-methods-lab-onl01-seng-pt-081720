@@ -5,6 +5,7 @@ class Song
  def self.create
    song = self.name
     @@all << song
+    binding.pry
   end
   def self.all
     @@all
