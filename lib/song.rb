@@ -2,6 +2,9 @@ require 'pry'
 class Song
   attr_accessor :name, :artist_name
   @@all = []
+    def initialize(name)
+    @name = name
+  end
   def self.create
     @@all << self.new
     binding.pry
