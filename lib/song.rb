@@ -13,6 +13,5 @@ class Song
    song = self.name
     song.save
     song
-    binding.pry
   end
 end
