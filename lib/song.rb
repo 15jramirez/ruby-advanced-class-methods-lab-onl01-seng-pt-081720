@@ -47,7 +47,6 @@ class Song
     
  def self.new_from_filename(filename)
    filename.split("-")
-   filename.delete()
    binding.pry
  end
    
