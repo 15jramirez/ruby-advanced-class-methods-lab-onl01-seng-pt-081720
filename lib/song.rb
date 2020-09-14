@@ -41,7 +41,7 @@ class Song
   
   def self.alphabetical
     self.all.sort do |a,b|
-      a <=> b
+      sef.all << a <=> b
       binding.pry
     end
   
