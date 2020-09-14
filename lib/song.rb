@@ -49,6 +49,7 @@ class Song
    if self.name include? ".mp3"
      song.name = self.name
      song.artist_name = self.artist_name
+   end
  end
    
 end
