@@ -43,7 +43,7 @@ class Song
      self.all.sort do |a,b|
        a.name <=> b.name
      end
-     self.alphabetical
+     self.all
     end
 
 end
