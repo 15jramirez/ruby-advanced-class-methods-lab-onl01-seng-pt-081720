@@ -52,7 +52,6 @@ class Song
    song.artist_name = new_file[0]
    song.save
    song
-   binding.pry
  end
    
 end
