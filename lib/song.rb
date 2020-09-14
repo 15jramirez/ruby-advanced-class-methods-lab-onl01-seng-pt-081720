@@ -40,7 +40,9 @@ class Song
   end 
   
   def self.alphabetical
-    self.all.sort_by { |abc| abc 
-    binding.pry
+    self.all.sort do 
+      binding.pry
+    end
+  
   end
 end
