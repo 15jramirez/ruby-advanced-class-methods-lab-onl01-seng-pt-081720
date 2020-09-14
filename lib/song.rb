@@ -40,7 +40,8 @@ class Song
   end 
   
   def self.alphabetical
-     self.alphabetical << self.all.sort
+     self.all.sort do
+     end
     end
 
 end
