@@ -45,11 +45,8 @@ class Song
      end
     end
     
- def self.new_from_filename(name)
-   if self.name include? ".mp3"
-     song.name = self.name
-     song.artist_name = self.artist_name
-   end
+ def self.new_from_filename(filename)
+ 
  end
    
 end
