@@ -36,7 +36,10 @@ class Song
           if song.name == name
             song
           else 
-            
+            song = self.new
+            song.name = name
+            song.save
+            song
           end
         end
   end 
