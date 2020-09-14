@@ -46,9 +46,8 @@ class Song
     end
     
  def self.new_from_filename(filename)
-   filename.split("-")
-   filename.delete_suffix(".mp3")
-   
+   new_file = filename.split("-").delete_suffix(".mp3")
+   binding.pry
  end
    
 end
