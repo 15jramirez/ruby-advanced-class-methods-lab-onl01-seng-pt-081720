@@ -46,8 +46,8 @@ class Song
     end
     
  def self.new_from_filename(filename)
-    array =[]
-    array = filename.split("-")
+   filename.split("-")
+   filename.delete()
    binding.pry
  end
    
